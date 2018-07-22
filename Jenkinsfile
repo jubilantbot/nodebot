@@ -31,6 +31,7 @@ node {
         docker.withRegistry('https://jubilantbotacr.azurecr.io', '7f80fb1f-c1d0-47f6-8140-db697df0005e') {
             app.push("${env.BUILD_NUMBER}")
             app.push("latest")
+            azureWebAppPublish appName: 'jubilantbotnode', azureCredentialsId: 'b1776a2b-f98c-4fe8-91f8-2607fdebfe53', dockerImageName: '', dockerImageTag: '', dockerRegistryEndpoint: [], filePath: '', publishType: 'file', resourceGroup: 'PipeRG', slotName: '', sourceDirectory: '', targetDirectory: ''
         }
     }
 }
