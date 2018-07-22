@@ -33,10 +33,4 @@ node {
             app.push("latest")
         }
     }
-
-
-azureWebAppPublish appName: 'TheJubilantBotApp',
- azureCredentialsId: 'b1776a2b-f98c-4fe8-91f8-2607fdebfe53', dockerImageName: '', 
- dockerImageTag: '', dockerRegistryEndpoint: [], filePath: '', publishType: 'file', 
- resourceGroup: 'PipeRG', slotName: '', sourceDirectory: '', targetDirectory: ''
 }
