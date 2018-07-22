@@ -33,20 +33,4 @@ node {
             app.push("latest")
         }
     }
-    
-    stage("Publish to Azure") {
-    steps {
-        azureWebAppPublish ([
-            appName: "xxx", 
-            azureCredentialsId: "xxx", 
-            publishType: "file", 
-            resourceGroup: "xxx", 
-            sourceDirectory: "docs/export"
-        ])
-    }
-}
-      
-    
-    
-    
 }
