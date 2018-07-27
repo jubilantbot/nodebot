@@ -1,8 +1,8 @@
 {
   "name": "jubilantbot_web_app",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Node.js on Docker",
-  "author": "jubilantbot <first.last@example.com>",
+  "author": "jubilantbot <jubilantbott@gmail.com>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
